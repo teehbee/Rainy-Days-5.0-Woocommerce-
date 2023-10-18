@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="This is the shopping cart page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/99f531cd0d.js" crossorigin="anonymous"></script>
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3657430,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+  <title>RainyDays | Shopping Cart</title>
+</head>
+<body class="cart-body">
+  <header class="cart-header">
+    <a href="index.html"><img src=images/logo_gray.jpg class="cart-logo" alt="rainydays logo"></a>
+    <a href="index.html" class="cart-header-link">CONTINUE SHOPPING</a>
+  </header>
+  <main class="main-cart">
+    <section class="shopping-cart">
+    <div class="header-black">
+      <h1>YOUR SHOPPING CART</h1>
+    </div>
+      <div class="cart-product-1">
+        <img src="images/products-men-main/mens_jacket_1.jpg" alt="picture of your first product">
+        <p class="cart-product-name">Mens jacket number 1</p>
+        <p class="cart-product-size">Medium</p>
+        <p class="cart-product-price">kr 3 999</p>
+      </div>
+      <div class="cart-product-2">
+        <img src="images/products-men-main/mens_jacket_2.jpg" alt="picture of your second product">
+        <p class="cart-product-name">Mens jacket number 2</p>
+        <p class="cart-product-size">Large</p>
+        <p class="cart-product-price">kr 2 499</p>
+        <p class="cart-product-sum">kr 6 498</p>
+      </div>
+    </section>
+    <section class="cart-giftcard">
+      <div class="header-black">
+        <h2>USE GIFT CARD</h2>
+      </div>
+      <div class="cart-giftcard-section">
+        <h3>ENTER GIFT CARD NUMBER</h3>
+        <form action="" method="post">
+          <input type="text" aria-label="enter gift card number" id="giftcard-number" name="giftcard-number" placeholder="Gift card number">
+          <h3>ENTER GIFT CARD CODE</h3>
+          <input type="text" aria-label="enter gift card code" id="giftcard-code" name="giftcard-code" placeholder="Gift card code">
+          <div class="gift-card-cta">
+          <input type="submit" value="OK">
+        </div>
+        </form>
+      </div>
+    </section>
+    <section class="complete-purchase">
+      <div class="header-black">
+        <h2>COMPLETE YOUR ORDER</h2>
+      </div>
+      <div class="purchase-details">
+        <h3>YOUR DETAILS</h3>
+        <form action="" method="post">
+          <div class="purchase-forms">
+            <input type="text" aria-label="enter email" id="purchase-email" name="purchase-email" placeholder="Email address">
+            <input type="text" aria-label="enter zip code" id="purchase-zip-code" name="purchase-zip-code" placeholder="Your zip code">
+            <p>RainyDays Privacy Disclaimer</p>
+          <div class="purchase-complete-order">
+            <input type="submit" value="CONTINUE">
+          </div>
+        </div>
+        </form>
+        <div class="delivery-box">
+          <h4>PLACE FOR DELIVERY</h4>
+          <h5>Free</h5>
+          <div class="delivery-beige-box">
+            <h6>No delivery address found</h6>
+            <p>Click to change address</p>
+          </div>
+          <div class="cart-checkboxes">
+            <input type="checkbox" name="sale-declaration" value="confirmed" id="sale-declaration">
+            <label for="sale-declaration">I accept the terms of RainyDays terms of sale declaration</label><br>
+            <input type="checkbox" name="privacy" value="confirmed" id="privacy">
+            <label for="privacy">I accept RainyDays privacy policy</label><br>
+            <input type="checkbox" name="newsletter" value="confirmed" id="newsletter">
+            <label for="newsletter">I wish to receive news and promotions from RainyDays</label>
+          </div>
+        </div>
+      </div>
+      <div class="cart-order-amount">
+        <h6>Order amount incl. VAT.</h6>
+        <p>Show details</p>
+        <p><strong>kr 6 498</strong></p>
+        <a href="success.html" class="cta-green">Purchase Order</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
