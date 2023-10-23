@@ -1,6 +1,6 @@
 //API call for all jackets
 
-const url = "https://api.noroff.dev/api/v1/rainy-days/";
+const url = "http://cross-course-project.local/wp-json/wc/store/products/";
 
 
 async function getJackets() {
@@ -20,7 +20,7 @@ const queryString = document.location.search;
 
 const params = new URLSearchParams(queryString);
 
-const id = params.get("id");
+const id = params.get ("id");
 
 async function getJacket() {
   
