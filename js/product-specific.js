@@ -14,7 +14,7 @@ const jacketWomenContainerSpecific = document.querySelector(".product-main");
     </div>
     <div class="jacket-color-price">
     <p class="jacket-specific-color">${jacketForWoman.attributes[0].terms[0].name}</p>
-    <p class="jacket-specific-price">NOK ${jacketForWoman.price_html}</p>
+    <p class="jacket-specific-price">${jacketForWoman.price_html}</p>
     </div>
     <div class="jacket-specific-picture">
       <img src="${jacketForWoman.images[0].src}" alt="${jacketForWoman.description}">

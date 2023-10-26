@@ -17,7 +17,7 @@ const jacketFrontPageContainer = document.querySelector(".frontpage-products");
         <div class="frontpage-product-title-and-heart">
         <a href="jacket-specific.html?id=${jacket[i].slug}"><h4>${jacket[i].name}</h4></a>
         <i class="fa-regular fa-heart fa-lg"></i></div>
-        <p>USD ${jacket[i].price_html}</p>
+        <p>${jacket[i].price_html}</p>
         </div>`
     } 
     }   catch(error) {

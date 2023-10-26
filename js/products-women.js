@@ -18,7 +18,7 @@ const jacketWomenContainer = document.querySelector(".jackets-for-sale");
         <a href="../jacket-specific.html?id=${jacketForWomen[i].slug}"><h3>${jacketForWomen[i].name}</h3></a>
           <i class="fa-regular fa-heart fa-lg"></i>
         </div>
-        <p>NOK ${jacketForWomen[i].price_html}</p>
+        <p>${jacketForWomen[i].price_html}</p>
       </div>`
     }
     } catch(error) {
