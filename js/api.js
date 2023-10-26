@@ -1,6 +1,6 @@
 //API call for all jackets
 
-const url = "http://cross-course-project.local/wp-json/wc/store/products/";
+const url = "https://cms-ca.thbergseng.com//wp-json/wc/store/products/";
 
 
 async function getJackets() {
