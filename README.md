@@ -1,47 +1,36 @@
-Your project title
-image
+# RainyDays
 
-A simple overview of the use/purpose of the project.
+<img src=images/portfolio-img-rainy-days.jpg>
 
-Description
-Add a more detailed description of what your project entails and set out to do.
+The final version of my first website project including the use of CMS
 
-You can add some bullet points if you'd like to:
+## Description
 
-List item 1
-List item 2
-List item 3
-Built With
-You can list a the tech stack that you've used over here
+RainyDays was my first website project at my Frontend studies. The webpage was altered several time, and in the final version, this
+was done by implementing <br> headless CMS for the creation of product posts for the site
 
-React.js
-Bootstrap
-Getting Started
-Installing
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+- Wordpress was used for creating the store items in the womens section of the store
 
-Clone the repo:
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-Install the dependencies:
-npm install
-Running
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+- The rest of the posts are static posts
 
-To run the app, run the following commands:
+## Built with
 
-npm run start
-Contributing
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+- HTML
 
-Contact
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+- CSS
 
-My Twitter page
+- Vanilla JS
 
-My LinkedIn page
+## Getting started
 
-License
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+Clone the repo
 
-Acknowledgments
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+```bash
+git clone git@github.com:teehbee/Rainy-Days-5.0-Woocommerce-.git
+```
+
+## Contributing
+
+## Contact
+
+[My LinkedIn page](www.linkedin.com/in/tor-håkon-bergseng-981408250)
