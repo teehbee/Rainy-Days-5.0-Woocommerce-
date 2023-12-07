@@ -29,6 +29,16 @@ Clone the repo
 git clone git@github.com:teehbee/Rainy-Days-5.0-Woocommerce-.git
 ```
 
+Install dependencies
+
+```
+npn install
+```
+
+```bash
+npm run start
+```
+
 ## Contributing
 
 ## Contact
