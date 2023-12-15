@@ -29,17 +29,9 @@ Clone the repo
 git clone git@github.com:teehbee/Rainy-Days-5.0-Woocommerce-.git
 ```
 
-Install dependencies
+Open repository in VSCode
 
-```
-npn install
-```
-
-```bash
-npm run start
-```
-
-## Contributing
+Launch index.html file with LiveServer in VSCode
 
 ## Contact
 
